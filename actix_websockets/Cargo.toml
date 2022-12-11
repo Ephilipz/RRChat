@@ -1,0 +1,27 @@
+[package]
+name = "actix_websockets"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+#actix for web capabilities and actors
+actix-web = { version = "4.2.1", features = ['openssl', 'rustls']}
+actix-web-actors = "4.1.0"                             
+actix = "0.13.0"                                       
+
+uuid = { version = "1.2", features = ["v4", "serde", "fast-rng"] }
+
+#serde for handling json
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+#chrono for date and time
+chrono = "0.4.23"
+
+#openssl for ssl
+openssl = "0.10"
+rustls = "0.20.2"
+rustls-pemfile = "1"

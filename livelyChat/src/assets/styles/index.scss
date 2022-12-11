@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;700;900&display=swap');
+@import 'Variables';
+@import 'Buttons';
+@import 'Inputs';
+@import 'Grid';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+html {
+    font-family: 'Cairo', 'Arial';
+    background-color: $bgColor;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+h1 {
+    color: wheat;
+    font-size: 2em;
+    text-align: center;
+    @media only screen and (max-width: 900px) {
+        font-size: 1.5em;
+    }
+}
