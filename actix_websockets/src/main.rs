@@ -32,7 +32,7 @@ async fn main() -> std::io::Result<()> {
             .app_data(Data::new(chat_server.clone())) //register the lobby
             .app_data(Data::new(video_server.clone())) //register video server
     })
-    .bind_openssl("10.21.37.85:8080", builder)?
+    .bind_openssl("0.0.0.0:8080", builder)?
     // .bind("172.20.10.5:8080")?
     .run()
     .await
