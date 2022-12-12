@@ -27,3 +27,6 @@ You may now enter a username and test the app
   
 - Note : You have to allow the temp server from all client devices before testing.
 - Note : The video will not work if the client device has no camera or mic (use a laptop or mobile not a vm)
+
+  To test the video, go to the frontend address you opened in step 7 of setting up the client and add /video/<anyusername> to enter the video chat room.
+  Example : https:192.168.1.39:5173/video/Eesaa
