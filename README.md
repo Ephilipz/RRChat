@@ -9,7 +9,7 @@
 4. install the modules `npm install`
 5. open the .env file and change the IP address to be the ip address of your server (and leave port 8080 as it is)
 6. run `npm run dev`
-7. open the link provided to you on the browsers of your clients (laptop or mobile) and make sure it's on https. Example : https:192.168.1.39:5173
+7. open the link provided to you on the browsers of your clients and make sure it's on https. Example : https:192.168.1.39:5173
 8. accept the warning in the browser
 
 ## Server ##
